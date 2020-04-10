@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overview of Justify-Content</title>
+    <title>Overview of Flex Direction</title>
 
     <style>
         body{
@@ -18,13 +18,12 @@
             border: 10px solid red;
             display: flex;
             justify-content: center;
-            /* flex-start, flex-end, center, space-between, space-around, space-evenly */
+            align-items: center;
         }
 
         .container > .img_blocks {
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
         }
 
     </style>
@@ -32,6 +31,9 @@
 <body>
     <div class="container">
         <div class="img_blocks">
+            <img src="https://source.unsplash.com/random/150x150" alt="">
+            <img src="https://source.unsplash.com/random/150x150" alt="">
+            <img src="https://source.unsplash.com/random/150x150" alt="">
             <img src="https://source.unsplash.com/random/150x150" alt="">
             <img src="https://source.unsplash.com/random/150x150" alt="">
             <img src="https://source.unsplash.com/random/150x150" alt="">
